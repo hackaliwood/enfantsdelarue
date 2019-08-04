@@ -129,15 +129,20 @@ p{
     margin:0 auto;
 }
 
-#flexbox{
+#flexbox, #endchoice{
     clear:both;
     margin:0 auto;
-    text-align:center;
-}
-
-#endchoice{
-    margin:0 auto;
-    text-align:center;
+    width: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .button {
