@@ -1,0 +1,8 @@
+objets: [
+    -{
+        "Nom": "Réglisse",
+        "Espèce": "Bichon", 
+        "Couleur": "Noire",
+        "Âge": 11
+    }
+]

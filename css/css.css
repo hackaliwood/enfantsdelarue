@@ -1,0 +1,160 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:rgb(245, 245, 245);
+    height:100%;
+    background-image:url("../img/bg.jpg");
+    background-size:cover;
+}
+
+#conteneur{
+    width:75%;
+    margin:0 auto;
+    text-align:center;  
+    color:black;
+    font-size:0.9rem;
+}
+
+#topbar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding-top:20px;
+    background-color:white;
+    margin-bottom:40px;
+}
+
+.icons{
+    width: 40px;
+    height: 80px;
+    color: #ff0115;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon{
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    color: #fff;
+    font-weight: bold;
+    text-align:center;
+}
+
+#iconHealth{
+    background: rgb(177, 0, 14);
+    border:5px solid rgb(255, 181, 253);
+}
+
+#iconWealth{
+    background: rgb(1, 0, 141);
+    border:5px solid rgb(166, 169, 255);
+}
+
+#iconReputation{
+    background: rgb(203, 21, 0);
+    border:5px solid rgb(255, 164, 0);
+}
+
+#charintro{
+    color:white;
+    text-transform:uppercase;
+    font-size:1.5rem;
+    background-color:rgba(0,0,0,0.75);
+    width:17rem;
+    padding:0.5rem;
+    box-shadow: 0 0 1rem 1rem rgba(0,0,0,0.75);
+    margin-top:1rem;
+}
+
+#iconFamily{
+    background: rgb(10, 141, 1);
+    border:5px solid rgba(243, 255, 0, 0.62);
+}
+
+#textHealth{
+    color: rgb(177, 0, 14);
+}
+
+#textWealth{
+    color: rgb(1, 0, 141);
+}
+
+#textReputation{
+    color: rgb(203, 21, 0);
+}
+
+#textFamily{
+    color: rgb(10, 141, 1);
+}
+
+ul li{
+    list-style-type:none;
+    display:inline-block;
+}
+
+p{
+    display:block;
+    width:80%;
+    margin:2rem auto;
+}
+
+#effect{
+    color:#db3251;
+    font-weight:bold;
+    padding:1rem;
+    border:2px ridge black;
+    font-size:0.9rem;
+    margin:20px auto;
+    background-color:rgba(0,0,0,0.85);
+}
+
+#situation,#chardesc{
+    font-size:1.1rem;
+    margin:50px auto;
+    padding:1rem;
+    color:white;
+    background-color:rgba(0,0,0,0.75);
+    box-shadow: 0 0 1rem 1rem rgba(0,0,0,0.75);
+}
+
+#picture{
+    display:block;
+    margin: 0 auto;
+}
+
+#ending{
+    margin:0 auto;
+}
+
+#flexbox{
+    clear:both;
+    margin:0 auto;
+    text-align:center;
+}
+
+#endchoice{
+    margin:0 auto;
+    text-align:center;
+}
+
+.button {
+    display:block;
+    margin: 10px;
+    cursor:pointer;
+}
+
+
+
+/*Médias queries-----------------------------------------------------------------------*/
+
+@media screen and (max-width:700px){
+    #flexbox{
+        display:flex;
+        flex-direction:column;
+        align-content: center;
+        justify-content:center;
+    }
+}
